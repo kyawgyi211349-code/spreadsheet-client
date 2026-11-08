@@ -6,7 +6,7 @@ export default function App() {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (inputPassword === '4289') {
+    if (inputPassword === '4567') {
       setIsAuthenticated(true);
     } else {
       alert('Password မှားယွင်းနေပါသည်။');
@@ -38,7 +38,7 @@ export default function App() {
   // Password မှန်သွားရင် မူလ Spreadsheet ဇယား ပေါ်လာမယ်
   return (
     <div style={{ width: '100vw', height: '100vh', display: 'flex', flexDirection: 'column', margin: 0, padding: 0 }}>
-      <div style={{ padding: '13px', background: '#1ce151', color: 'white', fontSize: '15px', fontWeight: 'bold' }}>
+      <div style={{ padding: '13px', background: '#858fd8', color: 'white', fontSize: '15px', fontWeight: 'bold' }}>
         Mr:Kyaw KPG Immigration Sheet :
       </div>
       <iframe
