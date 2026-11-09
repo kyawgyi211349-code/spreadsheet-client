@@ -6,7 +6,7 @@ export default function App() {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (inputPassword === '4289') {
+    if (inputPassword === '428900') {
       setIsAuthenticated(true);
     } else {
       alert('Password မှားယွင်းနေပါသည်။');
